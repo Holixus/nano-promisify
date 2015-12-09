@@ -42,3 +42,27 @@ fs.readFile('./indes.js', 'utf8')
 		console.error(e);
 	});
 ```
+
+[gitter-image]: https://badges.gitter.im/Holixus/nanopromisify.png
+[gitter-url]: https://gitter.im/Holixus/nanopromisify
+
+[npm-image]: https://img.shields.io/npm/v/nanopromisify.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/nanopromisify
+
+[github-tag]: http://img.shields.io/github/tag/Holixus/nanopromisify.svg?style=flat-square
+[github-url]: https://github.com/Holixus/nanopromisify/tags
+
+[travis-image]: https://travis-ci.org/Holixus/nanopromisify.svg?branch=master
+[travis-url]: https://travis-ci.org/Holixus/nanopromisify
+
+[coveralls-image]: https://img.shields.io/coveralls/thenables/thenify.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/thenables/thenify
+
+[david-image]: http://img.shields.io/david/thenables/thenify.svg?style=flat-square
+[david-url]: https://david-dm.org/thenables/thenify
+
+[license-image]: http://img.shields.io/npm/l/thenify.svg?style=flat-square
+[license-url]: LICENSE
+
+[downloads-image]: http://img.shields.io/npm/dm/thenify.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/nanopromisify
