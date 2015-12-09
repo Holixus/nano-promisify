@@ -14,7 +14,7 @@ Promisify callback-based function(s)
 ### Converting a function
 
 ```js
-var promisify = require('nanopromise');
+var promisify = require('nanopromisify');
 
 var readFile = promisify(fs.readFile);
 
@@ -30,7 +30,7 @@ readFile('./indes.js', 'utf8')
 ### Converting a library
 
 ```js
-var promisify = require('nanopromise');
+var promisify = require('nanopromisify');
 
 var fs = promisify(fs);
 
