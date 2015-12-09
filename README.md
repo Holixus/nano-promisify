@@ -55,14 +55,14 @@ fs.readFile('./indes.js', 'utf8')
 [travis-image]: https://travis-ci.org/Holixus/nanopromisify.svg?branch=master
 [travis-url]: https://travis-ci.org/Holixus/nanopromisify
 
-[coveralls-image]: https://img.shields.io/coveralls/thenables/thenify.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/thenables/thenify
+[coveralls-image]: https://img.shields.io/coveralls/Holixus/nanopromisify.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/Holixus/nanopromisify
 
-[david-image]: http://img.shields.io/david/thenables/thenify.svg?style=flat-square
-[david-url]: https://david-dm.org/thenables/thenify
+[david-image]: http://img.shields.io/david/Holixus/nanopromisify.svg?style=flat-square
+[david-url]: https://david-dm.org/Holixus/nanopromisify
 
-[license-image]: http://img.shields.io/npm/l/thenify.svg?style=flat-square
+[license-image]: http://img.shields.io/npm/l/nanopromisify.svg?style=flat-square
 [license-url]: LICENSE
 
-[downloads-image]: http://img.shields.io/npm/dm/thenify.svg?style=flat-square
+[downloads-image]: http://img.shields.io/npm/dm/nanopromisify.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/nanopromisify
