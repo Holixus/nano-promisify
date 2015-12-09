@@ -19,12 +19,12 @@ var promisify = require('nanopromisify');
 var readFile = promisify(fs.readFile);
 
 readFile('./indes.js', 'utf8')
-	.then(function (text) {
-		console.log(text);
-	})
-	.catch(function (e) {
-		console.error(e);
-	});
+  .then(function (text) {
+    console.log(text);
+  })
+  .catch(function (e) {
+    console.error(e);
+  });
 ```
 
 ### Converting a library
@@ -35,12 +35,12 @@ var promisify = require('nanopromisify');
 var fs = promisify(fs);
 
 fs.readFile('./indes.js', 'utf8')
-	.then(function (text) {
-		console.log(text);
-	})
-	.catch(function (e) {
-		console.error(e);
-	});
+  .then(function (text) {
+    console.log(text);
+  })
+  .catch(function (e) {
+    console.error(e);
+  });
 ```
 
 [gitter-image]: https://badges.gitter.im/Holixus/nanopromisify.png
