@@ -29,6 +29,8 @@ readFile('./indes.js', 'utf8')
 
 ### Converting a library
 
+Only callback functions will be wrapped.
+
 ```js
 var promisify = require('nanopromisify');
 
