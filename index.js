@@ -3,7 +3,7 @@
 function promisify(fn) {
 	return function () {
 		var self = this,
-		    args = arguments;
+		    args = Array.prototype.concat.apply([], arguments);
 		return new Promise(function (res, rej) {
 			args[args.length++] = function (err, data) {
 				if (err)
@@ -16,6 +16,8 @@ function promisify(fn) {
 	};
 }
 
+var is_callback_fn = /^\s*function\s+(?:\w+\s*)?\(\s*(?:[a-z0-9_$]+,\s*)*(?:callback_?|cb|done)\s*\)/;
+
 module.exports = function (something) {
 	switch (typeof something) {
 	case 'function':
@@ -26,16 +28,9 @@ module.exports = function (something) {
 	}
 	var o = {};
 	for (var id in something) {
-		var f = something[id], arg;
-		if (typeof f !== 'function' || !((arg = /^\s*function\s+(?:\w+\s*)?\(\s*(?:[a-z0-9_$]+,\s*)*([^)]*)\s*\)/.exec(f.toString())))) {
-			o[id] = f;
-			continue;
-		}
-		var last = arg[1];
-		if (last === 'callback' || last === 'callback_' || last === 'cb' || last === 'done')
-			o[id] = promisify(f);
-		else
-			o[id] = f;
+		var f = something[id];
+		o[id] = typeof f === 'function' && is_callback_fn.test(f.toString()) ?
+			promisify(f) : f;
 	}
 	return o;
 };
