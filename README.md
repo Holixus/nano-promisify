@@ -46,7 +46,7 @@ fs.readFile('./indes.js', 'utf8')
   });
 ```
 
-[gitter-image]: https://badges.gitter.im/Holixus/nanopromisify.png
+[gitter-image]: https://badges.gitter.im/Holixus/nanopromisify.svg
 [gitter-url]: https://gitter.im/Holixus/nanopromisify
 
 [npm-image]: https://img.shields.io/npm/v/nanopromisify.svg
