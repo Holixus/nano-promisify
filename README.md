@@ -48,23 +48,23 @@ fs.readFile('./indes.js', 'utf8')
 [gitter-image]: https://badges.gitter.im/Holixus/nanopromisify.png
 [gitter-url]: https://gitter.im/Holixus/nanopromisify
 
-[npm-image]: https://img.shields.io/npm/v/nanopromisify.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/nanopromisify.svg
 [npm-url]: https://npmjs.org/package/nanopromisify
 
-[github-tag]: http://img.shields.io/github/tag/Holixus/nanopromisify.svg?style=flat-square
+[github-tag]: http://img.shields.io/github/tag/Holixus/nanopromisify.svg
 [github-url]: https://github.com/Holixus/nanopromisify/tags
 
 [travis-image]: https://travis-ci.org/Holixus/nanopromisify.svg?branch=master
 [travis-url]: https://travis-ci.org/Holixus/nanopromisify
 
-[coveralls-image]: https://img.shields.io/coveralls/Holixus/nanopromisify.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/Holixus/nanopromisify.svg
 [coveralls-url]: https://coveralls.io/r/Holixus/nanopromisify
 
-[david-image]: http://img.shields.io/david/Holixus/nanopromisify.svg?style=flat-square
+[david-image]: http://img.shields.io/david/Holixus/nanopromisify.svg
 [david-url]: https://david-dm.org/Holixus/nanopromisify
 
-[license-image]: http://img.shields.io/npm/l/nanopromisify.svg?style=flat-square
+[license-image]: http://img.shields.io/npm/l/nanopromisify.svg
 [license-url]: LICENSE
 
-[downloads-image]: http://img.shields.io/npm/dm/nanopromisify.svg?style=flat-square
+[downloads-image]: http://img.shields.io/npm/dm/nanopromisify.svg
 [downloads-url]: https://npmjs.org/package/nanopromisify
