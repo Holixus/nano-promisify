@@ -7,6 +7,8 @@
 
 # nanopromisify
 
+[![Join the chat at https://gitter.im/Holixus/nanopromisify](https://badges.gitter.im/Holixus/nanopromisify.svg)](https://gitter.im/Holixus/nanopromisify?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Promisify callback-based function(s)
 
 ## Usage
