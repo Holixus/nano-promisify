@@ -6,7 +6,7 @@
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
-# nanopromisify
+# nano-promisify
 
 Promisify callback-based function(s)
 
@@ -15,7 +15,7 @@ Promisify callback-based function(s)
 ### Converting a function
 
 ```js
-var promisify = require('nanopromisify');
+var promisify = require('nano-promisify');
 
 var readFile = promisify(fs.readFile);
 
@@ -33,7 +33,7 @@ readFile('./indes.js', 'utf8')
 Only callback functions will be wrapped.
 
 ```js
-var promisify = require('nanopromisify');
+var promisify = require('nano-promisify');
 
 var fs = promisify(fs);
 
@@ -46,26 +46,26 @@ fs.readFile('./indes.js', 'utf8')
   });
 ```
 
-[gitter-image]: https://badges.gitter.im/Holixus/nanopromisify.svg
-[gitter-url]: https://gitter.im/Holixus/nanopromisify
+[gitter-image]: https://badges.gitter.im/Holixus/nano-promisify.svg
+[gitter-url]: https://gitter.im/Holixus/nano-promisify
 
-[npm-image]: https://img.shields.io/npm/v/nanopromisify.svg
-[npm-url]: https://npmjs.org/package/nanopromisify
+[npm-image]: https://img.shields.io/npm/v/nano-promisify.svg
+[npm-url]: https://npmjs.org/package/nano-promisify
 
-[github-tag]: http://img.shields.io/github/tag/Holixus/nanopromisify.svg
-[github-url]: https://github.com/Holixus/nanopromisify/tags
+[github-tag]: http://img.shields.io/github/tag/Holixus/nano-promisify.svg
+[github-url]: https://github.com/Holixus/nano-promisify/tags
 
-[travis-image]: https://travis-ci.org/Holixus/nanopromisify.svg?branch=master
-[travis-url]: https://travis-ci.org/Holixus/nanopromisify
+[travis-image]: https://travis-ci.org/Holixus/nano-promisify.svg?branch=master
+[travis-url]: https://travis-ci.org/Holixus/nano-promisify
 
-[coveralls-image]: https://img.shields.io/coveralls/Holixus/nanopromisify.svg
-[coveralls-url]: https://coveralls.io/r/Holixus/nanopromisify
+[coveralls-image]: https://img.shields.io/coveralls/Holixus/nano-promisify.svg
+[coveralls-url]: https://coveralls.io/r/Holixus/nano-promisify
 
-[david-image]: http://img.shields.io/david/Holixus/nanopromisify.svg
-[david-url]: https://david-dm.org/Holixus/nanopromisify
+[david-image]: http://img.shields.io/david/Holixus/nano-promisify.svg
+[david-url]: https://david-dm.org/Holixus/nano-promisify
 
-[license-image]: http://img.shields.io/npm/l/nanopromisify.svg
+[license-image]: http://img.shields.io/npm/l/nano-promisify.svg
 [license-url]: LICENSE
 
-[downloads-image]: http://img.shields.io/npm/dm/nanopromisify.svg
-[downloads-url]: https://npmjs.org/package/nanopromisify
+[downloads-image]: http://img.shields.io/npm/dm/nano-promisify.svg
+[downloads-url]: https://npmjs.org/package/nano-promisify

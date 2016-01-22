@@ -1,5 +1,5 @@
 {
-  "name": "nanopromisify",
+  "name": "nano-promisify",
   "version": "1.0.5",
   "description": "A minimal promisifying callback-based function(s) module",
   "main": "index.js",
@@ -22,11 +22,11 @@
   "author": "Vladimir Antonov <me@holix.ru>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Holixus/nanopromisify.git"
+    "url": "git://github.com/Holixus/nano-promisify.git"
   },
-  "homepage": "https://github.com/Holixus/nanopromisify",
+  "homepage": "https://github.com/Holixus/nano-promisify",
   "bugs": {
-    "url": "http://github.com/Holixus/nanopromisify/issues"
+    "url": "http://github.com/Holixus/nano-promisify/issues"
   },
   "license": "MIT"
 }
