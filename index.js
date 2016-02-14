@@ -1,5 +1,7 @@
 "use strict";
 
+var Promise = require('nano-promise');
+
 function promisify(fn) {
 	return function () {
 		var self = this,

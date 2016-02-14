@@ -1,6 +1,6 @@
 {
   "name": "nano-promisify",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A minimal promisifying callback-based function(s) module",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot -u tdd"
   },
   "dependencies": {
+    "nano-promise": "1"
   },
   "devDependencies": {
     "mocha": "2",
